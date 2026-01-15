@@ -1,0 +1,400 @@
+{
+  "projects": [
+    {
+      "id": "PROJ-001",
+      "name": "Pacific Northwest Store Expansion",
+      "customer": "Starbucks Corporation",
+      "status": "On Track",
+      "startDate": "2025-11-01",
+      "endDate": "2026-06-30",
+      "contract": {
+        "total": 2500000,
+        "invoiced": 1200000,
+        "paid": 900000,
+        "remaining": 1300000
+      },
+      "locations": [
+        {
+          "id": "LOC-001",
+          "name": "Seattle - Pike Place Market",
+          "address": "1912 Pike Pl, Seattle, WA 98101",
+          "lat": 47.6101,
+          "lng": -122.3421,
+          "status": "Complete",
+          "completion": 100,
+          "lastUpdated": "2026-01-10"
+        },
+        {
+          "id": "LOC-002",
+          "name": "Bellevue - Downtown",
+          "address": "500 Bellevue Way NE, Bellevue, WA 98004",
+          "lat": 47.6144,
+          "lng": -122.2022,
+          "status": "In Progress",
+          "completion": 65,
+          "lastUpdated": "2026-01-14"
+        },
+        {
+          "id": "LOC-003",
+          "name": "Portland - Pearl District",
+          "address": "1120 NW Couch St, Portland, OR 97209",
+          "lat": 45.5231,
+          "lng": -122.6831,
+          "status": "In Progress",
+          "completion": 45,
+          "lastUpdated": "2026-01-13"
+        },
+        {
+          "id": "LOC-004",
+          "name": "Tacoma - Downtown",
+          "address": "1101 Pacific Ave, Tacoma, WA 98402",
+          "lat": 47.2529,
+          "lng": -122.4443,
+          "status": "Not Started",
+          "completion": 0,
+          "lastUpdated": "2026-01-05"
+        },
+        {
+          "id": "LOC-005",
+          "name": "Spokane - River Park Square",
+          "address": "808 W Main Ave, Spokane, WA 99201",
+          "lat": 47.6588,
+          "lng": -117.4260,
+          "status": "Not Started",
+          "completion": 0,
+          "lastUpdated": "2026-01-05"
+        }
+      ],
+      "rfis": [
+        {
+          "number": "RFI-001",
+          "subject": "Electrical panel clearance requirements",
+          "daysOpen": 5,
+          "assignedTo": "John Smith",
+          "status": "Open",
+          "category": "Electrical"
+        },
+        {
+          "number": "RFI-002",
+          "subject": "Upgraded LED lighting package specification",
+          "daysOpen": 3,
+          "assignedTo": "Sarah Johnson",
+          "status": "Awaiting Customer Input",
+          "category": "Equipment Selection"
+        },
+        {
+          "number": "RFI-003",
+          "subject": "ADA compliance for entry ramp at Bellevue location",
+          "daysOpen": 1,
+          "assignedTo": "Mike Chen",
+          "status": "Open",
+          "category": "Compliance"
+        }
+      ],
+      "submittals": [
+        {
+          "id": "SUB-001",
+          "item": "HVAC Equipment Cut Sheets",
+          "description": "Energy-efficient rooftop units for climate control",
+          "status": "Under Review",
+          "dueDate": "2026-01-20",
+          "category": "Mechanical"
+        },
+        {
+          "id": "SUB-002",
+          "item": "Interior Finish Samples",
+          "description": "Flooring and wall finish options",
+          "status": "Approved",
+          "dueDate": "2026-01-15",
+          "category": "Finishes"
+        },
+        {
+          "id": "SUB-003",
+          "item": "Storefront Glass Specifications",
+          "description": "Low-E insulated glass units",
+          "status": "Approved",
+          "dueDate": "2026-01-12",
+          "category": "Exterior"
+        }
+      ],
+      "actionItems": [
+        {
+          "id": "AI-001",
+          "description": "Final inspections for Pike Place location",
+          "owner": "Project Manager",
+          "dueDate": "2026-01-18",
+          "status": "In Progress",
+          "category": "Closeout"
+        },
+        {
+          "id": "AI-002",
+          "description": "Equipment installation begins at Bellevue location",
+          "owner": "Installation Team",
+          "dueDate": "2026-01-20",
+          "status": "Scheduled",
+          "category": "Installation"
+        },
+        {
+          "id": "AI-003",
+          "description": "Submit permit applications for Tacoma location",
+          "owner": "Permitting Coordinator",
+          "dueDate": "2026-01-25",
+          "status": "Scheduled",
+          "category": "Permits"
+        }
+      ],
+      "progress": [
+        { "month": "Nov", "planned": 5, "actual": 6 },
+        { "month": "Dec", "planned": 15, "actual": 14 },
+        { "month": "Jan", "planned": 28, "actual": 30 },
+        { "month": "Feb", "planned": 45, "actual": 0 },
+        { "month": "Mar", "planned": 62, "actual": 0 },
+        { "month": "Apr", "planned": 80, "actual": 0 },
+        { "month": "May", "planned": 95, "actual": 0 },
+        { "month": "Jun", "planned": 100, "actual": 0 }
+      ]
+    },
+    {
+      "id": "PROJ-002",
+      "name": "Southeast Retail Rollout",
+      "customer": "Dollar Tree Stores",
+      "status": "At Risk",
+      "startDate": "2025-10-15",
+      "endDate": "2026-04-30",
+      "contract": {
+        "total": 1850000,
+        "invoiced": 950000,
+        "paid": 750000,
+        "remaining": 900000
+      },
+      "locations": [
+        {
+          "id": "LOC-006",
+          "name": "Atlanta - Midtown",
+          "address": "931 Monroe Dr NE, Atlanta, GA 30308",
+          "lat": 33.7838,
+          "lng": -84.3695,
+          "status": "Complete",
+          "completion": 100,
+          "lastUpdated": "2025-12-20"
+        },
+        {
+          "id": "LOC-007",
+          "name": "Charlotte - South End",
+          "address": "1508 South Blvd, Charlotte, NC 28203",
+          "lat": 35.2108,
+          "lng": -80.8569,
+          "status": "In Progress",
+          "completion": 55,
+          "lastUpdated": "2026-01-14"
+        },
+        {
+          "id": "LOC-008",
+          "name": "Nashville - Germantown",
+          "address": "1200 5th Ave N, Nashville, TN 37208",
+          "lat": 36.1730,
+          "lng": -86.7892,
+          "status": "In Progress",
+          "completion": 40,
+          "lastUpdated": "2026-01-12"
+        },
+        {
+          "id": "LOC-009",
+          "name": "Raleigh - Downtown",
+          "address": "421 Fayetteville St, Raleigh, NC 27601",
+          "lat": 35.7721,
+          "lng": -78.6386,
+          "status": "In Progress",
+          "completion": 25,
+          "lastUpdated": "2026-01-10"
+        },
+        {
+          "id": "LOC-010",
+          "name": "Birmingham - Five Points South",
+          "address": "1014 20th St S, Birmingham, AL 35205",
+          "lat": 33.5022,
+          "lng": -86.7987,
+          "status": "Not Started",
+          "completion": 0,
+          "lastUpdated": "2026-01-08"
+        }
+      ],
+      "rfis": [
+        {
+          "number": "RFI-004",
+          "subject": "Foundation depth for Nashville location",
+          "daysOpen": 12,
+          "assignedTo": "David Martinez",
+          "status": "Open",
+          "category": "Structural"
+        },
+        {
+          "number": "RFI-005",
+          "subject": "Fire sprinkler system layout approval",
+          "daysOpen": 8,
+          "assignedTo": "Lisa Thompson",
+          "status": "Under Review",
+          "category": "Fire Protection"
+        }
+      ],
+      "submittals": [
+        {
+          "id": "SUB-004",
+          "item": "Roofing Material Specifications",
+          "description": "TPO membrane roofing system",
+          "status": "Awaiting Customer Input",
+          "dueDate": "2026-01-18",
+          "category": "Roofing"
+        },
+        {
+          "id": "SUB-005",
+          "item": "Security System Equipment",
+          "description": "Access control and camera system",
+          "status": "Under Review",
+          "dueDate": "2026-01-22",
+          "category": "Security"
+        }
+      ],
+      "actionItems": [
+        {
+          "id": "AI-004",
+          "description": "Resolve structural design issue at Nashville site",
+          "owner": "Structural Engineer",
+          "dueDate": "2026-01-17",
+          "status": "In Progress",
+          "category": "Design"
+        },
+        {
+          "id": "AI-005",
+          "description": "Schedule utility coordination meeting for Raleigh",
+          "owner": "Site Superintendent",
+          "dueDate": "2026-01-19",
+          "status": "Scheduled",
+          "category": "Coordination"
+        }
+      ],
+      "progress": [
+        { "month": "Oct", "planned": 8, "actual": 10 },
+        { "month": "Nov", "planned": 20, "actual": 18 },
+        { "month": "Dec", "planned": 35, "actual": 30 },
+        { "month": "Jan", "planned": 52, "actual": 42 },
+        { "month": "Feb", "planned": 70, "actual": 0 },
+        { "month": "Mar", "planned": 88, "actual": 0 },
+        { "month": "Apr", "planned": 100, "actual": 0 }
+      ]
+    },
+    {
+      "id": "PROJ-003",
+      "name": "West Coast Equipment Upgrades",
+      "customer": "Target Corporation",
+      "status": "On Track",
+      "startDate": "2025-12-01",
+      "endDate": "2026-08-31",
+      "contract": {
+        "total": 3200000,
+        "invoiced": 800000,
+        "paid": 650000,
+        "remaining": 2400000
+      },
+      "locations": [
+        {
+          "id": "LOC-011",
+          "name": "San Diego - Mission Valley",
+          "address": "1288 Camino Del Rio N, San Diego, CA 92108",
+          "lat": 32.7740,
+          "lng": -117.1528,
+          "status": "In Progress",
+          "completion": 75,
+          "lastUpdated": "2026-01-15"
+        },
+        {
+          "id": "LOC-012",
+          "name": "San Francisco - SOMA",
+          "address": "789 Mission St, San Francisco, CA 94103",
+          "lat": 37.7836,
+          "lng": -122.4040,
+          "status": "In Progress",
+          "completion": 50,
+          "lastUpdated": "2026-01-14"
+        },
+        {
+          "id": "LOC-013",
+          "name": "Sacramento - Downtown Plaza",
+          "address": "555 K St, Sacramento, CA 95814",
+          "lat": 38.5810,
+          "lng": -121.5007,
+          "status": "In Progress",
+          "completion": 35,
+          "lastUpdated": "2026-01-13"
+        },
+        {
+          "id": "LOC-014",
+          "name": "San Jose - Santana Row",
+          "address": "377 Santana Row, San Jose, CA 95128",
+          "lat": 37.3213,
+          "lng": -121.9490,
+          "status": "Not Started",
+          "completion": 0,
+          "lastUpdated": "2026-01-10"
+        }
+      ],
+      "rfis": [
+        {
+          "number": "RFI-006",
+          "subject": "Refrigeration unit sizing for San Francisco location",
+          "daysOpen": 2,
+          "assignedTo": "Amy Rodriguez",
+          "status": "Open",
+          "category": "Mechanical"
+        }
+      ],
+      "submittals": [
+        {
+          "id": "SUB-006",
+          "item": "Refrigeration Equipment Specifications",
+          "description": "Walk-in cooler and freezer units",
+          "status": "Approved",
+          "dueDate": "2026-01-14",
+          "category": "Refrigeration"
+        },
+        {
+          "id": "SUB-007",
+          "item": "LED Lighting Retrofit Package",
+          "description": "Energy-efficient LED lighting throughout",
+          "status": "Under Review",
+          "dueDate": "2026-01-21",
+          "category": "Electrical"
+        }
+      ],
+      "actionItems": [
+        {
+          "id": "AI-006",
+          "description": "Complete equipment commissioning at San Diego location",
+          "owner": "Commissioning Agent",
+          "dueDate": "2026-01-20",
+          "status": "In Progress",
+          "category": "Commissioning"
+        },
+        {
+          "id": "AI-007",
+          "description": "Mobilize crew for Sacramento location",
+          "owner": "Project Manager",
+          "dueDate": "2026-01-22",
+          "status": "Scheduled",
+          "category": "Mobilization"
+        }
+      ],
+      "progress": [
+        { "month": "Dec", "planned": 5, "actual": 6 },
+        { "month": "Jan", "planned": 12, "actual": 13 },
+        { "month": "Feb", "planned": 22, "actual": 0 },
+        { "month": "Mar", "planned": 35, "actual": 0 },
+        { "month": "Apr", "planned": 50, "actual": 0 },
+        { "month": "May", "planned": 65, "actual": 0 },
+        { "month": "Jun", "planned": 80, "actual": 0 },
+        { "month": "Jul", "planned": 92, "actual": 0 },
+        { "month": "Aug", "planned": 100, "actual": 0 }
+      ]
+    }
+  ]
+}
