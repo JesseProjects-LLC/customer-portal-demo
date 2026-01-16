@@ -120,7 +120,7 @@ customer-portal/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/customer-portal-demo.git
+git clone https://github.com/jesse-projects/customer-portal-demo.git
 cd customer-portal-demo
 
 # Install dependencies
